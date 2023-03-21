@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+<body>
+    <script>
+        let n1 = parseFloat (prompt("Entre com a primeira nota: "));
+        let n2 = parseFloat (prompt("Entre com a segunda nota: "));
+        let n3 = parseFloat (prompt("Entre com a terceira nota: "));
+        let n4 = parseFloat (prompt("Entre com a quarta nota: "));
+
+        let average = (n1 + n2 + n3 + n4) / 4;
+
+        if (n1,n2,n3,n4<0 && n1,n2,n3,n4>10) {
+            document.write ("Os valores informados são inválidos")
+        } else if (average>5) {
+            document.write ("A sua média foi: " , average)
+            document.write ("<br>")
+            document.write ("Você passou no teste")
+        } else if (average<5) {
+            document.write ("A sua média foi: " , average)
+            document.write ("<br>")
+            document.write ("Tente novamente")
+        }
+    </script>
+</body>
+</html>
